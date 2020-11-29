@@ -1,6 +1,6 @@
 using UnityEditor;
 
-namespace JRahmatiNL.Unity3D.Input
+namespace JRahmatiNL.Unity3D.CustomEditorTools.Input
 {
     public class CustomToolToggler
     {
