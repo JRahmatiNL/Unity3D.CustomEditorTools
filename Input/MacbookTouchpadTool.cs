@@ -7,8 +7,8 @@ namespace JRahmatiNL.Unity3D.CustomEditorTools.Input
 {
     // Unity3D treats Macbook touchpad as a zooming device, completely ignoring horizontal input.
     // Use this tool, if you prefer the Blender implementation of Macbook touchpad support!
-    [EditorTool("MacBook Touchpad")]
-    internal class MacbookTouchpadProcessor : EditorTool
+    [EditorTool("MacBook Touchpad Tool")]
+    internal class MacbookTouchpadTool : EditorTool
     {
         private const float RotationSpeed = 0.1f;
         private static readonly Vector2 DeadSwipeZone = new Vector2(1f, 1f);
